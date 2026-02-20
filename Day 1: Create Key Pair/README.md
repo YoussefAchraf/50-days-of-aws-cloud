@@ -2,31 +2,34 @@
 
 ## Overview
 
-This repository documents the process of migrating a portion of on-premises infrastructure to **AWS** and creating a secure **RSA key pair** (`nautilus-kp`) for SSH access. The migration is designed to be incremental to ensure minimal disruption, better control, and optimized resource management.
+In this project, I handled the migration of part of the Nautilus on-premises infrastructure to **AWS**, focusing on **secure access** via an RSA key pair. The goal was to ensure safe SSH connectivity to EC2 instances while planning the migration incrementally to minimize disruption, maintain control, and optimize resource usage.
+
+This README explains the steps I followed, the commands I executed, and how I validated the migration and key pair setup.
 
 ---
 
 ## Task Objectives
 
-1. Create an **RSA key pair** in AWS:
+The main objectives of this task were:
+
+1. **Create an RSA key pair in AWS** for secure SSH access:
    - **Key name:** `nautilus-kp`
    - **Key type:** `RSA`
-2. Plan an **incremental migration** of servers to AWS.
-3. Validate SSH access and connectivity using the newly created key.
+2. **Plan an incremental migration** of on-premises servers to AWS, grouping servers by purpose.
+3. **Validate SSH access and connectivity** using the newly created key to ensure secure and reliable access.
 
 ---
 
 ## Key Pair Creation
 
-### Using AWS CLI
+I generated the RSA key pair using the **AWS CLI** to automate and securely download the private key.
+
+### Command Used
 
 ```bash
-# Create RSA key pair and save private key
+# Create an RSA key pair named nautilus-kp and save the private key locally
 aws ec2 create-key-pair \
     --key-name nautilus-kp \
     --key-type rsa \
     --query 'KeyMaterial' \
     --output text > nautilus-kp.pem
-
-# Set correct permissions
-chmod 400 nautilus-kp.pem
