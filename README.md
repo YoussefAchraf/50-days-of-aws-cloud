@@ -18,8 +18,8 @@ This repository tracks my journey through the **#100DaysOfCloud** challenge. It 
 | 01 | Create Key Pair | 2026-02-20 | ✅ Done |
 | 02 | Create Security Group | 2026-02-21 | ✅ Done |
 | 03 | Create Subnet | 2026-02-21 | ✅ Done |
-| 04 | Enable Versioning for S3 Bucket | 2026-02-21| ✅ Done |
-| 05 | Create GP3 Volume | - | ⏳ Pending |
+| 04 | Enable Versioning for S3 Bucket | 2026-02-21 | ✅ Done |
+| 05 | Create GP3 Volume | 2026-02-21 | ✅ Done |
 | 06 | Launch EC2 Instance | - | ⏳ Pending |
 | 07 | Change EC2 Instance Type | - | ⏳ Pending |
 | 08 | Enable Stop Protection for EC2 | - | ⏳ Pending |
