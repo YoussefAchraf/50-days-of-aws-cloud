@@ -1,0 +1,39 @@
+# Nautilus AWS EBS Volume Creation
+
+## Overview
+
+In this project, I created an **EBS volume** in AWS to support the incremental migration of Nautilus infrastructure. By segmenting large tasks into smaller units, the DevOps team ensures a smoother migration process with minimal disruption. The volume `nautilus-volume` is intended to be attached to EC2 instances as required for application data storage.
+
+This README explains the task objectives, commands used, and verification steps for creating the EBS volume.
+
+---
+
+## Task Objectives
+
+The main objectives of this task were:
+
+1. **Create an EBS volume** with specific requirements:
+   - **Name:** `nautilus-volume`
+   - **Volume type:** `gp3` (General Purpose SSD)
+   - **Size:** 2 GiB
+2. **Enable incremental infrastructure migration** by providing dedicated storage for EC2 instances.
+3. **Verify the volume** to ensure it was successfully created and properly tagged.
+
+---
+
+## EBS Volume Creation
+
+I used the **AWS CLI** to automate the creation of the EBS volume with all required specifications.
+
+### Command Used
+
+```bash id="t5zv2h"
+aws ec2 create-volume \
+    --availability-zone us-east-1a \
+    --volume-type gp3 \
+    --size 2 \
+    --tag-specifications 'ResourceType=volume,Tags=[{Key=Name,Value=nautilus-volume}]'
+```
+### Verify Volume Creation
+```bash
+aws ec2 describe-volumes --filters "Name=tag:Name,Values=nautilus-volume"
