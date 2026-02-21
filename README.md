@@ -16,7 +16,7 @@ This repository tracks my journey through the **#100DaysOfCloud** challenge. It 
 | Day | Task | Date | Status |
 | :--- | :--- | :--- | :--- |
 | 01 | Create Key Pair | 2026-02-20 | ✅ Done |
-| 02 | Create Security Group | - | ⏳ Pending |
+| 02 | Create Security Group | 2026-02-21 | ✅ Done |
 | 03 | Create Subnet | - | ⏳ Pending |
 | 04 | Enable Versioning for S3 Bucket | - | ⏳ Pending |
 | 05 | Create GP3 Volume | - | ⏳ Pending |
