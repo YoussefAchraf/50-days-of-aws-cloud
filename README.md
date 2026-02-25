@@ -13,28 +13,28 @@ This repository tracks my journey through the **#100DaysOfCloud** challenge. It 
 <details open>
 <summary><b>🛡️ Phase 1: Foundational Infrastructure (Days 1 - 20)</b></summary>
 
-| Day | Task | Date | Status |
-| :--- | :--- | :--- | :--- |
-| 01 | Create Key Pair | 2026-02-20 | ✅ Done |
-| 02 | Create Security Group | 2026-02-21 | ✅ Done |
-| 03 | Create Subnet | 2026-02-21 | ✅ Done |
-| 04 | Enable Versioning for S3 Bucket | 2026-02-21 | ✅ Done |
-| 05 | Create GP3 Volume | 2026-02-21 | ✅ Done |
-| 06 | Launch EC2 Instance | - | ⏳ Pending |
-| 07 | Change EC2 Instance Type | - | ⏳ Pending |
-| 08 | Enable Stop Protection for EC2 | - | ⏳ Pending |
-| 09 | Enable Termination Protection for EC2 | - | ⏳ Pending |
-| 10 | Attach Elastic IP to EC2 Instance | - | ⏳ Pending |
-| 11 | Attach ENI to EC2 Instance | - | ⏳ Pending |
-| 12 | Attach Volume to EC2 Instance | - | ⏳ Pending |
-| 13 | Create AMI from EC2 Instance | - | ⏳ Pending |
-| 14 | Terminate EC2 Instance | - | ⏳ Pending |
-| 15 | Create Volume Snapshot | - | ⏳ Pending |
-| 16 | Create IAM User | - | ⏳ Pending |
-| 17 | Create IAM Group | - | ⏳ Pending |
-| 18 | Create Read-Only IAM Policy for EC2 | - | ⏳ Pending |
-| 19 | Attach IAM Policy to IAM User | - | ⏳ Pending |
-| 20 | Create IAM Role for EC2 with Policy | - | ⏳ Pending |
+| Day | Task | Status |
+| :--- | :--- | :--- |
+| 01 | Create Key Pair | ✅ Done |
+| 02 | Create Security Group | ✅ Done |
+| 03 | Create Subnet | ✅ Done |
+| 04 | Enable Versioning for S3 Bucket | ✅ Done |
+| 05 | Create GP3 Volume | ✅ Done |
+| 06 | Launch EC2 Instance | ⏳ Pending |
+| 07 | Change EC2 Instance Type | ⏳ Pending |
+| 08 | Enable Stop Protection for EC2 | ⏳ Pending |
+| 09 | Enable Termination Protection for EC2 | ⏳ Pending |
+| 10 | Attach Elastic IP to EC2 Instance | ⏳ Pending |
+| 11 | Attach ENI to EC2 Instance | ⏳ Pending |
+| 12 | Attach Volume to EC2 Instance | ⏳ Pending |
+| 13 | Create AMI from EC2 Instance | ⏳ Pending |
+| 14 | Terminate EC2 Instance | ⏳ Pending |
+| 15 | Create Volume Snapshot | ⏳ Pending |
+| 16 | Create IAM User | ⏳ Pending |
+| 17 | Create IAM Group | ⏳ Pending |
+| 18 | Create Read-Only IAM Policy for EC2 | ⏳ Pending |
+| 19 | Attach IAM Policy to IAM User | ⏳ Pending |
+| 20 | Create IAM Role for EC2 with Policy | ⏳ Pending |
 </details>
 
 <details>
